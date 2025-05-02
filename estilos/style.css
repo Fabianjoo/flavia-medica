@@ -14,7 +14,7 @@
 html{
     min-height: 100vh;
     min-width: 100vw;
-    background-color: rgba(3, 168, 157, 0.200);;
+    background-color: rgba(3, 168, 157, 0.123);
 }
 
 /* CABEÇALHO */
@@ -26,6 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 9999;
     top: 0;
     width: 100vw;
     height: 50px;
@@ -44,7 +45,7 @@ nav > span{
 }
 
 nav > div#menu_mobile{
-    position: absolute;
+    position: fixed;
     width: 30vw;
     height: 100vh;
     top: 50px;
@@ -87,4 +88,28 @@ div#menu_mobile > ul > li:hover{
 
 main{
     margin-top: 50px;
+}
+
+section#slogan{
+    
+}
+
+section#slogan > div#foto_slogan{
+    background: url(../imagens/teste.jpg) no-repeat center center / cover;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height:500px;
+}
+
+div#foto_slogan > div#texto1{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+div#foto_slogan > p{
+    position: absolute;
+    top: 150px;
+    right: 30px;
 }
