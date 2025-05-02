@@ -55,7 +55,6 @@ nav > div#menu_mobile{
 }
 
 nav > div.ativar{
-    display: block;
     transform: translateX(50vw);
     transition: transform 0.5s ease;
 }
