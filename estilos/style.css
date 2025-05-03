@@ -2,7 +2,7 @@
 
 :root {
     --cor-principal: #03a89e;
-    --cor-secundaria: #ABB398;
+    --cor-secundaria: #b6b0a3;
     --cor-terciaria: #7C947A;
     --cor-quartaria: #DBD5C6;
   }
@@ -100,8 +100,8 @@ section#slogan{
 }
 
 section#slogan > div#foto{
-    /* background-image: linear-gradient(to bottom, var(--cor-secundaria) 60%, rgba(255, 255, 255, 0.2)); */
-    background-image: url(../imagens/fundo.png);
+    background-image: linear-gradient(to bottom, var(--cor-secundaria) 60%, rgba(255, 255, 255, 0.2));
+    /* background-image: url(../imagens/fundo.png); */
     position: relative;
     z-index: 1;
     width: 100vw;
@@ -134,32 +134,38 @@ div#foto > p{
 
 section#sobre{
     background-color: var(--cor-terciaria);
-    height: 580px;
+    height: 900px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+    
 }
 
 section#sobre > img{
-    width: 260px;
+    width: 350px;
     border-radius: 20px;
 }
 
-section#sobre > div#sobre > h2{
+article#sobre > div.sobre_informacoes{
+    margin: 20px;
+    background-color: var(--cor-quartaria);
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section#sobre > article#sobre > h2{
     text-align: center;
     font-size: 0.9em;
     padding: 10px 0px 20px 0px;
     color: white;
 }
 
-div#sobre > p{
-    color: white;
-}
-
 section#sobre > a{
     text-align: center;
-    margin-top: 20px;
     background-color: var(--cor-quartaria);
     color: black;
     border: 2px solid black;
