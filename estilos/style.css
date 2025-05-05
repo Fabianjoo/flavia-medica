@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root {
-    --cor-principal: #03a89e;
-    --cor-secundaria: #b6b0a3;
-    --cor-terciaria: #7C947A;
-    --cor-quartaria: #DBD5C6;
+    --cor-principal: #006064;
+    --cor-secundaria: #F0ECE3;
+    --cor-terciaria: #FFFFFF;
+    --cor-quartaria: #C8A97E;
   }
 
 *{
@@ -95,45 +95,18 @@ main{
 /* SEÇÃO 1 - SLOGAN */
 
 section#slogan{
-    margin-top: 10px;
     height: 500px;
-}
-
-section#slogan > div#foto{
-    background-image: linear-gradient(to bottom, var(--cor-secundaria) 60%, rgba(255, 255, 255, 0.2));
-    /* background-image: url(../imagens/fundo.png); */
-    position: relative;
-    z-index: 1;
     width: 100vw;
-    height:500px;
 }
 
-div#foto > img{
-    width: 55%;
-    position: absolute;
-    bottom: 0;
-}
-
-div#foto > div#texto1{
-    position: absolute;
-    color: white;
-    top: 50px;
-    right: 40px;
-    font-size: 1.2em;
-}
-
-div#foto > p{
-    position: absolute;
-    font-size: 1.2em;
-    color: white;
-    top: 200px;
-    right: 40px;
+section#slogan > img{
+    width: 100%;
 }
 
 /* SEÇÃO 2 - SOBRE */
 
 section#sobre{
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-quartaria);
     height: 900px;
     display: flex;
     flex-flow: column nowrap;
